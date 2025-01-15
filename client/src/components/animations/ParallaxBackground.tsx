@@ -21,4 +21,4 @@ export function ParallaxBackground() {
       className="fixed inset-0 bg-[url('/black-widow-pattern.png')] opacity-5 pointer-events-none z-0"
     />
   )
-}
+}

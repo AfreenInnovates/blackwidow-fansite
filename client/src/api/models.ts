@@ -16,6 +16,14 @@ export interface TriviaQuestion {
   question: string;
   options: string[];
   correctAnswer: number;
+  explanation?: string;
+}
+
+export interface TriviaLifelines {
+  fiftyFifty: boolean;
+  skip: boolean;
+  aiHelp: boolean;
+  extraTime: boolean;
 }
 
 export interface GalleryImage {

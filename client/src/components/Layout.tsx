@@ -47,7 +47,7 @@ export function Layout() {
           <ResizableHandle className="w-2 bg-border hover:bg-red-500/20 transition-colors" />
           <ResizablePanel defaultSize={80} minSize={30}>
             <main className="h-[calc(100vh-4rem)] overflow-y-auto px-6 py-8">
-              <div className="mx-auto max-w-7xl pb-16">
+              <div className="mx-auto max-w-7xl pb-20">
                 <Outlet />
               </div>
             </main>

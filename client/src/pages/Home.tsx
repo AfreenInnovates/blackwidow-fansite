@@ -30,7 +30,7 @@ export function Home() {
     <div className="space-y-8">
       <section className="relative h-[70vh] rounded-lg overflow-hidden">
         <img
-          src={content.hero.image}
+          src="https://image.tmdb.org/t/p/original/e8tHXl2Pmk972K00uoPuCXsJXDO.jpg"
           alt="Black Widow"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -50,7 +50,7 @@ export function Home() {
           <Card key={index} className="overflow-hidden backdrop-blur-sm bg-black/10">
             <CardContent className="p-6">
               <img
-                src={section.image}
+                src="https://image.tmdb.org/t/p/original/e8tHXl2Pmk972K00uoPuCXsJXDO.jpg"
                 alt={section.title}
                 className="w-full h-48 object-cover rounded-lg mb-4"
               />

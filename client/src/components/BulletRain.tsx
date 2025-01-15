@@ -39,4 +39,4 @@ export function BulletRain() {
   }, [])
 
   return <div ref={containerRef} className="bullet-container" />
-}
+}

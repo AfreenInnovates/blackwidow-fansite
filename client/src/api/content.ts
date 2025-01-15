@@ -50,13 +50,36 @@ export const getTriviaQuestions = async (): Promise<{ questions: TriviaQuestion[
           id: "1",
           question: "What is Black Widow's real name?",
           options: ["Natalie Rushman", "Natasha Romanoff", "Yelena Belova", "Nancy Roberts"],
-          correctAnswer: 1
+          correctAnswer: 1,
+          explanation: "Natasha Romanoff is her real name, though she has used aliases like Natalie Rushman."
         },
         {
           id: "2",
           question: "Where was Black Widow trained?",
           options: ["The Red Room", "SHIELD Academy", "Hydra Base", "Xavier's School"],
-          correctAnswer: 0
+          correctAnswer: 0,
+          explanation: "The Red Room was a secret Soviet training facility where young girls were trained to become Black Widows."
+        },
+        {
+          id: "3",
+          question: "What was Black Widow's role in the Avengers before officially joining?",
+          options: ["SHIELD Liaison", "Undercover Spy", "Personal Assistant", "Weapons Expert"],
+          correctAnswer: 2,
+          explanation: "She posed as Tony Stark's personal assistant under the alias Natalie Rushman."
+        },
+        {
+          id: "4",
+          question: "What is Black Widow's signature weapon?",
+          options: ["Widow's Bite", "Grappling Hook", "Batons", "All of the above"],
+          correctAnswer: 3,
+          explanation: "Black Widow uses all these weapons, with the Widow's Bite being her most iconic."
+        },
+        {
+          id: "5",
+          question: "What sacrifice did Black Widow make in Endgame?",
+          options: ["Her powers", "Her life", "Her freedom", "Her memories"],
+          correctAnswer: 1,
+          explanation: "She sacrificed herself on Vormir to obtain the Soul Stone."
         }
       ]
     };
@@ -113,6 +136,16 @@ export const getGames = async (): Promise<{ games: Game[] }> => {
           id: "reflex",
           title: "Spy Reflexes",
           description: "Test your reaction speed like a trained spy!"
+        },
+        {
+          id: "memory",
+          title: "Memory Mission",
+          description: "Test your memory skills with spy gadgets and equipment!"
+        },
+        {
+          id: "target",
+          title: "Target Practice",
+          description: "Improve your accuracy with rapid-fire target practice!"
         }
       ]
     };
